@@ -12,7 +12,7 @@ class Contact < MailForm::Base
         to: email,
         from: %("#{name}" <#{email}>),
         #the from will display the name entered by the user followed by the email
-        template_name: "signup_form"
+        # template_name: "signup_form"
         }
     end
 end
